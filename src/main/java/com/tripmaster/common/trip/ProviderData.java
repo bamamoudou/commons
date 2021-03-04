@@ -1,4 +1,4 @@
-package com.tripmaster.common;
+package com.tripmaster.common.trip;
 
 import java.util.UUID;
 

@@ -1,4 +1,6 @@
-package com.tripmaster.common;
+package com.tripmaster.common.user;
+
+import com.tripmaster.common.attraction.AttractionData;
 
 public class UserAttraction {
 	public User user;

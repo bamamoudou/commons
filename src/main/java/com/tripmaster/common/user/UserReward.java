@@ -1,4 +1,7 @@
-package com.tripmaster.common;
+package com.tripmaster.common.user;
+
+import com.tripmaster.common.attraction.AttractionData;
+import com.tripmaster.common.location.VisitedLocationData;
 
 public class UserReward {
 	public VisitedLocationData visitedLocation;

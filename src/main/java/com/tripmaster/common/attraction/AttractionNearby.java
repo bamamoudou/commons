@@ -1,6 +1,10 @@
-package com.tripmaster.common;
+package com.tripmaster.common.attraction;
 
 import java.util.UUID;
+
+import com.tripmaster.common.location.LocationData;
+import com.tripmaster.common.location.VisitedLocationData;
+import com.tripmaster.common.user.User;
 
 /**
  * AttractionNearby is the data format exchanged in JSON with the client for the

@@ -1,4 +1,4 @@
-package com.tripmaster.common;
+package com.tripmaster.common.location;
 
 import java.util.Date;
 import java.util.UUID;

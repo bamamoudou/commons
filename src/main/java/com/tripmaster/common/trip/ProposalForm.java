@@ -1,6 +1,9 @@
-package com.tripmaster.common;
+package com.tripmaster.common.trip;
 
 import java.util.List;
+
+import com.tripmaster.common.attraction.AttractionNearby;
+import com.tripmaster.common.user.User;
 
 public class ProposalForm {
 	public User user;

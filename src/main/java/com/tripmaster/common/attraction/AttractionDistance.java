@@ -1,4 +1,6 @@
-package com.tripmaster.common;
+package com.tripmaster.common.attraction;
+
+import com.tripmaster.common.location.LocationData;
 
 public class AttractionDistance extends AttractionData implements Comparable<AttractionDistance> {
 	private LocationData fromLocation;

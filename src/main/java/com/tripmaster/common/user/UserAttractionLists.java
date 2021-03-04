@@ -1,6 +1,8 @@
-package com.tripmaster.common;
+package com.tripmaster.common.user;
 
 import java.util.List;
+
+import com.tripmaster.common.attraction.AttractionData;
 
 public class UserAttractionLists {
 	public List<AttractionData> attractionList;

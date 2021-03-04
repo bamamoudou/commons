@@ -1,6 +1,8 @@
-package com.tripmaster.common;
+package com.tripmaster.common.attraction;
 
 import java.util.UUID;
+
+import com.tripmaster.common.location.LocationData;
 
 public class AttractionData extends LocationData {
 	public String name;

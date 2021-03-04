@@ -1,4 +1,4 @@
-package com.tripmaster.common;
+package com.tripmaster.common.location;
 
 public class LocationData {
 	public double latitude;

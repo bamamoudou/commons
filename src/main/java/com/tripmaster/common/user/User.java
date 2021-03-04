@@ -1,8 +1,10 @@
-package com.tripmaster.common;
+package com.tripmaster.common.user;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
+
+import com.tripmaster.common.location.VisitedLocationData;
 
 public class User {
 	public final UUID userId;
@@ -51,5 +53,45 @@ public class User {
 
 	public List<UserReward> getUserRewards() {
 		return userRewards;
+	}
+
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+
+	public String getEmailAddress() {
+		return emailAddress;
+	}
+
+	public void setEmailAddress(String emailAddress) {
+		this.emailAddress = emailAddress;
+	}
+
+	public UserPreferences getUserPreferences() {
+		return userPreferences;
+	}
+
+	public void setUserPreferences(UserPreferences userPreferences) {
+		this.userPreferences = userPreferences;
+	}
+
+	public UUID getUserId() {
+		return userId;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setVisitedLocations(List<VisitedLocationData> visitedLocations) {
+		this.visitedLocations = visitedLocations;
+	}
+
+	public void setUserRewards(List<UserReward> userRewards) {
+		this.userRewards = userRewards;
 	}
 }
